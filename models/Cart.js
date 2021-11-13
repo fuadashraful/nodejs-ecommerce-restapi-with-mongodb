@@ -1,6 +1,6 @@
-const mongooser=require('mongoose');
+const mongoose=require('mongoose');
 
-const cartSchema=new mongooser.Schema({
+const cartSchema=new mongoose.Schema({
     userId:{
         type:String,
         required:true,

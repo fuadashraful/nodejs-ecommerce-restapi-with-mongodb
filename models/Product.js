@@ -1,6 +1,6 @@
-const mongooser=require('mongoose');
+const mongoose=require('mongoose');
 
-const productSchema=new mongooser.Schema({
+const productSchema=new mongoose.Schema({
     title:{
         type:String,
         required:true,
